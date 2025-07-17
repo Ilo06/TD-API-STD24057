@@ -1,0 +1,60 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# === Environnements virtuels ===
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+pip-wheel-metadata/
+
+# === Fichiers de configuration sensibles ===
+*.env
+.env.*
+*.db
+*.sqlite3
+*.pem
+*.key
+secrets.json
+
+# === Outils de test et analyse ===
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.pyre/
+.pytype/
+pylint-report.txt
+
+# === FastAPI ou Flask spécifique ===
+instance/
+*.sqlite
+
+# === IntelliJ / PyCharm ===
+.idea/
+*.iml
+
+# === VS Code (si jamais tu switches d'IDE) ===
+.vscode/
+
+# === Système d'exploitation ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Git spécifiques ===
+*.orig
